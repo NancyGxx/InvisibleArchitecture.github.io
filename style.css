@@ -1,8 +1,21 @@
 html,
 body {
   font-family: "IBM Plex Mono", monospace !important;
-  color: #f2d0a9 !important;
+  color: #f2b021 !important;
 }
+
 canvas {
   display: block;
+}
+
+.cover {
+  height: 100vh;
+  margin: 1em;
+}
+
+.inputs {
+  position: fixed;
+  /* position: absolute; */
+  top: 1em;
+  right: 1em;
 }
